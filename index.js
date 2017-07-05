@@ -6,3 +6,6 @@ $('.centerAdd').on('click',function(){
 	$('.mark').fadeIn();
 	$('.animated').addClass('bounceInDown').removeClass('bounceOutDown')
 })
+(function(){
+	console.log("aa")
+})()
