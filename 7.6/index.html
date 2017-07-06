@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script>
+		;(function(win,doc){
+			var rem = 100/750*doc.documentElement.clientWidth;
+				doc.documentElement.style.fontSize = rem + "px";
+			win.onresize = function(){
+				rem = 100/750*doc.documentElement.clientWidth;
+				doc.documentElement.style.fontSize = rem + "px";
+			}
+		})(window,document);
+	</script>
+</head>
+<body>
+	<div class="mask"></div>
+	<div class="main">
+		<div class="banner">
+			<img src="img/logo_01.png" alt="">
+			<p>设备测试预约系统</p>
+		</div>
+		<div class="inp">
+			<p><label for="user"><img src="img/icon_01.png" alt=""></label><input type="text" id="user" placeholder="q请输入手机号码"></p>
+			<p><label for="pwd"><img src="img/icon_03.png" alt=""></label><input type="password" id="pwd" placeholder="q请输入密码"></p>
+			<button>登录账号开始预测</button>
+		</div>
+	</div>
+	<div class="wrap">
+
+	</div>
+	<script>
+		// 网站工程学院 1505E 孟庆烁 高级程序设计 （2017/7/6 8:20）
+		// 网站工程学院 1505E 孟庆烁 高级程序设计 （2017/7/6 8:30）
+	</script>
+</body>
+</html>
